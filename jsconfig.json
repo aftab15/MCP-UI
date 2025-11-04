@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@common/*": ["./src/common/*"],
+      "@services/*": ["./src/services/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@redux/*": ["./src/redux/*"],
+      "@hooks/*": ["./src/hooks/*"]
+    }
+  },
+  "allowJs": true,
+  "checkJs": true
+}
