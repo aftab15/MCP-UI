@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "http://localhost:3000/mcp";
+const BASE_URL = "https://mcp-be-0gqm.onrender.com/mcp";
 
 export const listTools = async () => {
   const resp = await axios.post(BASE_URL, {
