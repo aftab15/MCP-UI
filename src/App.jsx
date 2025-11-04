@@ -146,7 +146,7 @@ export default function App() {
         };
       }
 
-      const res = await axios.post("http://localhost:3000/mcp", payload, {
+      const res = await axios.post("https://mcp-be-0gqm.onrender.com/mcp", payload, {
         headers: { "Content-Type": "application/json" },
       });
       setResponse(res.data.result);
